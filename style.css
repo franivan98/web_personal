@@ -1,0 +1,9 @@
+/*Estilo para los encabezados */
+h1{
+    color:rgb(47, 25, 192);
+    font-size:40px;
+}
+p{
+    color:grey;
+    font-size: 20px;
+}
