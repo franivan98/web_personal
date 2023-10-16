@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Clase 2</title>
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenidos a mi pagina web</h1>
+            <nav>
+                <ul>
+                    <li><a href="#acerca-de">Acerca de</a></li>
+                    <li><a href="#educacion">Educacion</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#formulario">Mensajeame</a></li>
+                    <li><a href="index.html">VOLVER</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="acerca-de">
+            <h2>Acerca de mi</h2>
+            <p>Mi nombre es Franco mamani. soy apasionado en el desarrollo web</p>
+            <img src="images/perfil.jpg" alt="Tu foto aqui" width="200">
+        </section>
+        <section id="educacion">
+            <h2>Educacion</h2>
+            <ul>
+                <li>Universidad Nacional de Cordoba, Ingenieria en Computacion</li>
+                <li>Curso online FRONT end, Desarrollo Web</li>
+            </ul>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <adress>
+                Correo Electronico: <a href="mailto:email@example.com">email@example.com</a><br>
+                Telefono: <a href="rel:+1234567890">+1 234 567 890</a>
+            </adress>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del proyecto</th>
+                        <th>Fecha</th>
+                        <th>Lenguajes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Proyecto 1</td>
+                        <td>2022</td>
+                        <td>HTML,CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Proyecto 2</td>
+                        <td>2021</td>
+                        <td>HTM, JavaScript</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Contactame!</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <label for="correo">Correo:</label>
+                <input type="text" id="correo" name="correo"><br><br>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto"><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2023, Todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>
