@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    padding: 2px;
+}
+h1{
+    text-align: center;
+}
+nav{
+    background-color: #92b0e7;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+    padding-right: 30px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap:10px;
+}
+
+#costado{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #6a9eff;
+}
+#contenido{
+    padding: 10px;
+}
+#idiomas, #habilidades, #cursos{
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 20px;
+}
